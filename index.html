@@ -2,6 +2,7 @@
 <html class="no-js" lang="">
 
 <head>
+
   <meta charset="utf-8">
   <meta http-equiv="x-ua-compatible" content="ie=edge">
   <title></title>
@@ -14,20 +15,56 @@
 
   <link rel="stylesheet" href="css/normalize.css">
   <link rel="stylesheet" href="css/main.css">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/brands.css" integrity="sha384-rf1bqOAj3+pw6NqYrtaE1/4Se2NBwkIfeYbsFdtiR6TQz0acWiwJbv1IM/Nt/ite" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/fontawesome.css" integrity="sha384-1rquJLNOM3ijoueaaeS5m+McXPJCGdr5HcA03/VHXxcp2kX2sUrQDmFc3jR5i/C7" crossorigin="anonymous">
+
+  <!-- everything below is favicon stuff -->
+  <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+  <link rel="manifest" href="/site.webmanifest">
+  <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5">
+  <meta name="msapplication-TileColor" content="#2d89ef">
+  <meta name="theme-color" content="#ffffff">
+
 </head>
 
 <body>
-  <!--[if lte IE 9]>
-    <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade your browser</a> to improve your experience and security.</p>
-  <![endif]-->
+  <div id="content">
+    <a href="#">
+      <!-- <img src="/img/ben.svg" onerror="this.src='/img/ben.png'"> -->
+      <svg
+        version="1.1"
+        id="svg"
+        xmlns="http://www.w3.org/2000/svg"
+        xmlns:xlink="http://www.w3.org/1999/xlink"
+        viewBox="0 0 255 345"
+        height="125"
+        width="92.5"
+        xml:space="preserve"
+      >
+        <use xlink:href="/img/ben.svg#svgg"></use>
+      </svg>
+    </a>
 
-  <!-- Add your site or application content here -->
-  <p>Hello world! This is HTML5 Boilerplate.</p>
-  <script src="js/vendor/modernizr-3.6.0.min.js"></script>
-  <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
-  <script>window.jQuery || document.write('<script src="js/vendor/jquery-3.3.1.min.js"><\/script>')</script>
-  <script src="js/plugins.js"></script>
+    <ul class="social">
+      <li><a class="icon" target="_blank" href="#"><i class="fab fa-codepen"></i></a></li>
+      <li><a class="icon" target="_blank" href="#"><i class="fab fa-github"></i></a></li>
+      <li><a class="icon" target="_blank" href="#"><i class="fab fa-linkedin"></i></a></li>
+      <li><a class="icon" target="_blank" href="#"><i class="fab fa-twitter"></i></a></li>
+      <li><a class="icon" target="_blank" href="#"><i class="fab fa-instagram"></i></a></li>
+    </ul>
+
+    <div class="description">
+      <p>Hi, I'm <span style="font-weight:700;">Ben Lane</span>. I'm a front-end software developer. I also play solo piano/guitar music, draw things, and drink lots of coffee.
+      <p>Check out my latest projects at the links above. Or send me an e-mail: <a href="#">ben@benlane.net</a>.</p>
+      <p>Thanks for visiting.</p>
+    </div>
+  </div>
+
+  <!-- <script src="js/vendor/modernizr-3.6.0.min.js"></script> -->
   <script src="js/main.js"></script>
+  <script src="js/svg4everybody.min.js"></script>
 
   <!-- Google Analytics: change UA-XXXXX-Y to be your site's ID. -->
   <script>
