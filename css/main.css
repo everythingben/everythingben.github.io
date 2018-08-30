@@ -11,7 +11,7 @@
    ========================================================================== */
 
 html {
-    color: #222;
+    color: black;
     font-size: 1em;
     line-height: 1.4;
 }
@@ -49,15 +49,13 @@ svg {
    Ben's custom styles
    ========================================================================== */
 
-a {
+a, a:visited {
     color: black;
     text-decoration: none;
 }
+
 a:hover {
     color: #01579f;
-}
-a:hover svg {
-    fill: #01579f;
 }
 
 #content {
@@ -84,13 +82,17 @@ a:hover svg {
 
 #content .description {
     padding: 1rem;
-    border: 1px dashed #333;
+    border: 1px dashed #444;
     max-width: 20rem;
 }
 
 #content .description p {
     margin: 0 0 1rem 0;
     line-height: 1.75rem;
+}
+
+#content .description p .name {
+    font-weight: 700;
 }
 
 #content .description p a {
@@ -132,6 +134,16 @@ a:hover svg {
        (min-resolution: 120dpi) {
     /* Style adjustments for high resolution devices */
 }
+
+/* TODO these were used when the main svg icon was a link, disabling for now since it's redundant */
+
+/* a:hover svg {
+    fill: #01579f;
+}
+
+a:visited svg {
+    fill: black;
+} */
 
 /* ==========================================================================
    Print styles.
