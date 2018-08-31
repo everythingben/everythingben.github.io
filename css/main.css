@@ -58,7 +58,7 @@ a:hover i {
 }
 
 #content {
-    padding: 0 1rem 1rem 1rem;
+    padding: 0 1rem 2rem 1rem;
     font-family: "Menlo", "Meslo LG", monospace;
     margin-top: 5rem;
     display: flex;
