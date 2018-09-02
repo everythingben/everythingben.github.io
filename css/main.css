@@ -49,7 +49,7 @@ svg {
    Ben's custom styles
    ========================================================================== */
 
-a i, a:visited i, a:active i, a:focus-within i {
+a i, a:visited i, a:active i {
     color: black;
 }
 
