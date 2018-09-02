@@ -1,6 +1,6 @@
 # BENLANE.NET
 
-A simple static website that links my profiles on other platforms.
+A simple static website that links to my profiles on other platforms.
 
 ## Testing locally
 
