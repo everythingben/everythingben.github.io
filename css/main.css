@@ -49,12 +49,14 @@ svg {
    Ben's custom styles
    ========================================================================== */
 
-a i, a:visited i, a:active i {
-    color: black;
-}
+/* I wanted to make these icon links blue on hover but mobile devices have issues with this */
+/* see https://stackoverflow.com/questions/47507495/css-hover-style-remains-after-button-click-in-ios-devices */
 
-a:hover i {
-    color: #01579f;
+a:link,
+a:visited,
+a:hover,
+a:active {
+    color: #000000;
 }
 
 #content {
@@ -103,9 +105,14 @@ a:hover i {
     margin: 0;
 }
 
-#content > * {
+#logo {
+    margin-bottom: 2rem;
+}
+
+#social-links {
     margin-bottom: 1.75rem;
 }
+
 
 #content > *:last-child {
     margin-bottom: 0;
