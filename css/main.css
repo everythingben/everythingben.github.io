@@ -52,11 +52,13 @@ svg {
 /* I wanted to make these icon links blue on hover but mobile devices have issues with this */
 /* see https://stackoverflow.com/questions/47507495/css-hover-style-remains-after-button-click-in-ios-devices */
 
-a:link,
-a:visited,
-a:hover,
-a:active {
+a {
     color: #000000;
+    text-decoration: none;
+}
+
+html.no-touchevents a:hover {
+    color: #01579f;
 }
 
 #content {
