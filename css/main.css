@@ -74,7 +74,7 @@ html.no-touchevents a:hover {
     margin-top: 0;
     display: flex;
     list-style-type: none;
-    min-width: 12rem;
+    min-width: 13rem;
     padding: 0;
     justify-content: space-between;
 }
@@ -86,7 +86,7 @@ html.no-touchevents a:hover {
 #content .description {
     padding: 1rem;
     border: 1px dashed #444;
-    max-width: 20rem;
+    max-width: 18rem;
 }
 
 #content .description p {
