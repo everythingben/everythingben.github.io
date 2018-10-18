@@ -74,13 +74,13 @@ html.no-touchevents a:hover {
     margin-top: 0;
     display: flex;
     list-style-type: none;
-    min-width: 13rem;
+    min-width: 11rem;
     padding: 0;
     justify-content: space-between;
 }
 
 #content ul li a i {
-    font-size: 1.75rem;
+    font-size: 2rem;
 }
 
 #content .description {
