@@ -85,8 +85,8 @@ html.no-touchevents a:hover {
 
 #content .description {
     padding: 1rem;
-    border: 1px dashed #444;
-    max-width: 18rem;
+    border: 1px dashed #666;
+    max-width: 15rem;
 }
 
 #content .description p {
